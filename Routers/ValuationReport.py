@@ -49,7 +49,7 @@ class HouseInfo(BaseModel):
     house_ownership: str  # 房屋产权
 
 
-@app.post("/valuation")
+@app.post("/valuation/")
 def predict_valuation(house: HouseInfo):
     #类别变量字典
     with open('TabularCNP/sparse_feature_encodings.json', 'r',
