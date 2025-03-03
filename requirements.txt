@@ -1,0 +1,11 @@
+numpy==1.23.2
+pandas==2.1.0
+torch==2.0.0
+torchaudio==2.0.1
+torchmetrics==1.4.0.post0
+torchvision==0.15.1
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+
